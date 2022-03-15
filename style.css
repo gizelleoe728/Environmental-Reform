@@ -64,24 +64,29 @@ body {
  
 .navbar  {
   list-style-type: none;
-  background-color: #003046;
+  background-color: #0047AB;
   overflow: hidden;
   padding: 1px;
-  border: solid black 1px;
 }
 .navclick {
   display: inline;
   font-size: 17px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 3px;
 }
 .navclick  .navlink {
   display: inline;
   text-decoration: none;
   color: Black;
   padding: 1px;
-  border: black solid 2px;
 }
 .navclick .navlink:hover {
-  background-color: #43D6B9;
+  background-color: #6082B6;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 3px;
 }
 
 
@@ -100,7 +105,7 @@ body {
   color: black;
 }
 .slink:hover {
-  background-color: #43D6B9;
+  background-color:#8C92AC;
 }
 
 
