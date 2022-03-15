@@ -1,4 +1,4 @@
-<!-- Home -- > .title {
+.title {
   color: #1162a5;
   font-family: "Dancing Script", cursive;
   font-size: 100px;
@@ -60,7 +60,8 @@ body {
 .antiquities {
   font-size: 17px;
 }
-<!-- Nav bar -- > 
+
+ 
 .navbar  {
   list-style-type: none;
   background-color: #003046;
@@ -68,40 +69,27 @@ body {
   padding: 1px;
   border: solid black 1px;
 }
-.navclick  .{
-  display: inline;
-}
-
-
-.navul {
-  list-style-type: none;
-  background-color: #6d326d;
-  overflow: hidden;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
-}
 .navclick {
-  text-decoration: none;
-  color: white;
-  font-size: 1.3px;
-  padding: 1px;
-  background-color: #43d6b9;
   display: inline;
+  font-size: 17px;
 }
-
-li a {
+.navclick  .navlink {
+  display: inline;
   text-decoration: none;
-  color: black;
-  font-size: 13px;
+  color: Black;
   padding: 1px;
+  border: black solid 2px;
 }
-.navclick:hover {
-  background-color: #8c92ac;
+.navclick .navlink:hover {
+  background-color: #43D6B9;
 }
 
-<!-- Sources -- > .socolume {
-  display: flex;
-  flex-direction: column-reverse;
+
+
+
+.links {
+  text-align: center;
+}
+ul.no-bullets {
+  list-style-type: none;
 }
