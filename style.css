@@ -88,8 +88,23 @@ body {
 
 
 .links {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+   list-style-type: none;
 }
-ul.no-bullets {
-  list-style-type: none;
+.sourceslink {
+  display: block;
+}
+.slink {
+  display: block;
+  color: black;
+}
+.slink:hover {
+  background-color: #43D6B9;
+}
+
+
+.ques  {
+   list-style-type: none;
+  text-align: center;
 }
