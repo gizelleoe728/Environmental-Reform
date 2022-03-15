@@ -1,5 +1,4 @@
-<!-- Home -->
-.title {
+<!-- Home -- > .title {
   color: #1162a5;
   font-family: "Dancing Script", cursive;
   font-size: 100px;
@@ -11,7 +10,7 @@ body {
 }
 
 .img1 {
- border: 5px hidden;
+  border: 5px hidden;
   padding: 5px;
   margin: 25px;
   width: 700px;
@@ -21,7 +20,7 @@ body {
 }
 
 .progressiveera {
-   display: flex;
+  display: flex;
   flex-direction: row;
   padding: 18px;
   margin: 50px;
@@ -58,11 +57,10 @@ body {
   font-size: 17px;
 }
 
-.antiquities{
+.antiquities {
   font-size: 17px;
 }
-<!-- Nav bar -- > 
-.navul {
+<!-- Nav bar -- > .navul {
   list-style-type: none;
   background-color: #6d326d;
   overflow: hidden;
@@ -84,7 +82,7 @@ body {
   font-size: 1.3px;
   padding: 1px;
   background-color: #43d6b9;
-   display: inline;
+  display: inline;
 }
 
 li a {
@@ -97,9 +95,7 @@ li a {
   background-color: #8c92ac;
 }
 
-<!-- Sources --> 
-.socolume{
+<!-- Sources -- > .socolume {
   display: flex;
   flex-direction: column-reverse;
 }
-  
