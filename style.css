@@ -1,3 +1,4 @@
+<!-- Home -->
 .title {
   color: #1162a5;
   font-family: "Dancing Script", cursive;
@@ -87,4 +88,11 @@ li a {
 }
 li a:hover {
   background-color: #8c92ac;
+}
+
+<!-- Sources --> 
+
+.sources{
+  display:flex;
+  justify-content:flex-column;
 }
