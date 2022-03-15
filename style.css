@@ -6,7 +6,7 @@
 body {
   margin: 50px;
   font-family: "Noto Serif", serif;
-  font-size: 23px;
+  font-size: 19px;
 }
 
 .img1 {
@@ -52,7 +52,8 @@ body {
   justify-content: flex-start;
 }
 
-<!-- Nav bar -- > .navul {
+<!-- Nav bar -- > 
+.navul {
   list-style-type: none;
   background-color: #6d326d;
   overflow: hidden;
@@ -65,7 +66,8 @@ body {
   list-style-type: none;
   overflow: hidden;
   padding: 1px;
-  background-color: white;
+  background-color: ;
+  border: black solid 1px;
 }
 .navclick {
   text-decoration: none;
@@ -80,8 +82,8 @@ li {
 li a {
   text-decoration: none;
   color: black;
-  font-size: 15px;
-  padding: 1em;
+  font-size: 13px;
+  padding: 1px;
 }
 li a:hover {
   background-color: #8c92ac;
