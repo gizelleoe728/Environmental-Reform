@@ -76,9 +76,10 @@ body {
   font-size: 1.3px;
   padding: 1px;
   background-color: #43d6b9;
+   display: inline;
 }
 li {
-  display: inline;
+ 
 }
 li a {
   text-decoration: none;
@@ -91,8 +92,8 @@ li a:hover {
 }
 
 <!-- Sources --> 
-
-.sources{
-  display:flex;
-  justify-content:flex-column;
+.socolume{
+  display: flex;
+  flex-direction: column-reverse;
 }
+  
