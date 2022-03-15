@@ -11,19 +11,21 @@ body {
 }
 
 .img1 {
-  border: 5px hidden;
+ border: 5px hidden;
   padding: 5px;
   margin: 25px;
   width: 700px;
-  height: 600px;
+  height: 500px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .progressiveera {
-  display: flex;
-  justify-content: flex-start;
-  margin: 90;
+   display: flex;
+  flex-direction: row;
+  padding: 18px;
+  margin: 50px;
+  font-size: 17px;
 }
 
 .progessive {
@@ -78,16 +80,14 @@ body {
   background-color: #43d6b9;
    display: inline;
 }
-li {
- 
-}
+
 li a {
   text-decoration: none;
   color: black;
   font-size: 13px;
   padding: 1px;
 }
-li a:hover {
+.navclick:hover {
   background-color: #8c92ac;
 }
 
