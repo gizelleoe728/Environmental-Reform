@@ -40,11 +40,11 @@ body {
 }
 
 .nationalpark {
-  display:flex;
-  flex-direction:row;
-  padding:18px;
-  margin:50px;
-  font-size:23px;
+  display: flex;
+  flex-direction: row;
+  padding: 18px;
+  margin: 50px;
+  font-size: 23px;
 }
 
 .johnmuir {
@@ -52,10 +52,9 @@ body {
   justify-content: flex-start;
 }
 
-<!-- Nav bar -->
-.navul {
+<!-- Nav bar -- > .navul {
   list-style-type: none;
-  background-color: #6D326D;
+  background-color: #6d326d;
   overflow: hidden;
   list-style-type: none;
   margin: 0;
@@ -85,5 +84,5 @@ li a {
   padding: 1em;
 }
 li a:hover {
-  background-color: #8C92AC;
+  background-color: #8c92ac;
 }
