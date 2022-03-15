@@ -1,25 +1,73 @@
-/* a minimalist set of CSS resets */
-
-/* default to border-box */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+.title {
+  color: #1162a5;
+  font-family: "Dancing Script", cursive;
+ font-size: 100px;
+}
+h2 {
+  text-align: center;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+h5 {
+  text-align: left;
 }
-
-/* adjust typography defaults */
+p {
+  text-align: center;
+}
 body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
+  margin: 50px;
+  font-family: "Noto Serif Display", serif;
 }
 
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
+.img1 {
+  border: 5px hidden;
+  padding: 5px;
+  margin: 25px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.progressiveera {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.progessive {
+  display: flex;
+}
+
+.img2 {
+  border: 5px hidden;
+  padding: 5px;
+  margin: 25px;
+  width: 600px;
+  height: 450px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nationalpark {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.johnmuir {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 1px;
+  background-color: #003046;
+}
+.navclick {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3px;
+  padding: 1px;
+  background-color: #43d6b9;
 }
