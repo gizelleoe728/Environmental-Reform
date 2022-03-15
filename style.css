@@ -30,6 +30,7 @@ body {
 
 .progessive {
   display: flex;
+  font-size: 17px;
 }
 
 .img2 {
@@ -40,6 +41,7 @@ body {
   height: 500px;
   display: flex;
   justify-content: flex-start;
+  margin-right: 50px;
 }
 
 .nationalpark {
@@ -47,14 +49,18 @@ body {
   flex-direction: row;
   padding: 18px;
   margin: 50px;
-  font-size: 19px;
+  font-size: 17px;
 }
 
 .johnmuir {
   display: flex;
   justify-content: flex-start;
+  font-size: 17px;
 }
 
+.antiquities{
+  font-size: 17px;
+}
 <!-- Nav bar -- > 
 .navul {
   list-style-type: none;
