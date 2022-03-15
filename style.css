@@ -15,7 +15,8 @@ p {
 }
 body {
   margin: 50px;
-  font-family: "Noto Serif Display", serif;
+  font-family: 'Noto Serif', serif;
+  font-size:90px;
 }
 
 .img1 {
