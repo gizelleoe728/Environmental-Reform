@@ -60,7 +60,20 @@ body {
 .antiquities {
   font-size: 17px;
 }
-<!-- Nav bar -- > .navul {
+<!-- Nav bar -- > 
+.navbar  {
+  list-style-type: none;
+  background-color: #003046;
+  overflow: hidden;
+  padding: 1px;
+  border: solid black 1px;
+}
+.navclick  .{
+  display: inline;
+}
+
+
+.navul {
   list-style-type: none;
   background-color: #6d326d;
   overflow: hidden;
@@ -68,13 +81,6 @@ body {
   margin: 0;
   padding: 0;
   cursor: pointer;
-}
-.navbar {
-  list-style-type: none;
-  overflow: hidden;
-  padding: 1px;
-  background-color: ;
-  border: black solid 1px;
 }
 .navclick {
   text-decoration: none;
