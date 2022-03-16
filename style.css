@@ -61,10 +61,9 @@ body {
   font-size: 17px;
 }
 
- 
-.navbar  {
+.navbar {
   list-style-type: none;
-  background-color: #0047AB;
+  background-color: #0047ab;
   overflow: hidden;
   padding: 1px;
 }
@@ -76,26 +75,23 @@ body {
   border-radius: 20px;
   padding: 3px;
 }
-.navclick  .navlink {
+.navclick .navlink {
   display: inline;
   text-decoration: none;
   color: Black;
   padding: 1px;
 }
 .navclick .navlink:hover {
-  background-color: #6082B6;
+  background-color: #6082b6;
   margin: 10px;
   border-radius: 20px;
   padding: 3px;
 }
 
-
-
-
 .links {
   display: flex;
   flex-direction: column;
-   list-style-type: none;
+  list-style-type: none;
 }
 .sourceslink {
   display: block;
@@ -105,11 +101,10 @@ body {
   color: black;
 }
 .slink:hover {
-  background-color:#8C92AC;
+  background-color: #8c92ac;
 }
 
-
-.ques  {
-   list-style-type: none;
+.ques {
+  list-style-type: none;
   text-align: center;
 }
